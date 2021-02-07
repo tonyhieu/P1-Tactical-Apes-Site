@@ -1,15 +1,18 @@
+package labs;
+
 import java.lang.*;
 public class Palindrome{
 
-     public static void main(String []args){
-        System.out.println("Hello World");
-        Palindrome test = new Palindrome();
-        boolean isPali = test.isPalindrome("abcddcba");
-        if (isPali) {
-          System.out.println("Palindrome");
-        } else {
-          System.out.println("Not a palindrome");
-        }
+     public static void main(String []args) {
+         System.out.println("Hello World");
+         Palindrome test = new Palindrome();
+         boolean isPali = test.isPalindrome("abcddcba");
+         if (isPali) {
+             System.out.println("Palindrome");
+         } else {
+             System.out.println("Not a palindrome");
+         }
+     }
        
      public boolean isPalindrome (String input) {
          String changedInput = input.replaceAll("\\s", "");
