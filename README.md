@@ -1,6 +1,21 @@
-# P1-Tactical-Apes-Site
+# Tactical Apes Website
 
-P1 Tactical Apes website repository 
+## Contributors
+| GitHub Username | Person |
+| --- | --- |
+| [@VihanJ](https://github.com/VihanJ) | Vihan Jayaraman |
+| [@EyaadM](https://github.com/eyaadm) | Eyaad Mir |
+| [@YasaswiS](https://github.com/YasaswiS) | Yasaswi Singamneni |
+| [@tonyhieu](https://github.com/tonyhieu) | Anthony Vo |
 
+## Journals
+- [Eyaad and Anthony](https://docs.google.com/document/d/1_TAdjjngp_0zO604YmFBRjesVqBiyebn3PxdbbQfVCM/edit?usp=sharing)
+- [Yasaswi and Vihan](https://docs.google.com/document/d/1pfqB4SIPHMkJ73QtPpQTaguTV1aGAqH_RgjdxjifUO4/edit?usp=sharing)
 
-Link to Repl with backend code (will be updated when new code is finished): [Link](https://repl.it/@EyaadMir/Backend-Code#Main.java)
+## Goals
+| Person | Goals |
+| --- | --- |
+| Vihan Jayaraman | [Work on implementing old simulations into website](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/4) |
+| Eyaad Mir | [Add labs and algorithms into website to show AP CSA requirements](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/3) |
+| Yasaswi Singamneni | [Create back end support, deployment](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/2) |
+| Anthony Vo | [Web development, web design, HTML and CSS](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/1) |
