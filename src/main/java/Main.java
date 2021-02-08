@@ -3,9 +3,11 @@
  * From IntelliJ Tutorial - https://www.jetbrains.com/help/idea/your-first-spring-application.html
  */
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RestController;
 
+@SpringBootConfiguration
 @SpringBootApplication  // explained here - https://dzone.com/articles/the-springbootapplication-annotation-example-in-ja#
 @RestController
 public class Main {
