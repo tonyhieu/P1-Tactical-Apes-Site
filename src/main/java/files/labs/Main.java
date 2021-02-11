@@ -1,4 +1,4 @@
-
+package files.labs;
 /* Basic web site that loads pbl.html, added is route to /hello
  * From IntelliJ Tutorial - https://www.jetbrains.com/help/idea/your-first-spring-application.html
  */

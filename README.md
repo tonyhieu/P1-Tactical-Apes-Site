@@ -16,6 +16,6 @@
 | Person | Goals |
 | --- | --- |
 | Vihan Jayaraman | [Work on implementing old simulations into website](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/4) |
-| Eyaad Mir | [Add labs and algorithms into website to show AP CSA requirements](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/3) |
+| Eyaad Mir | [Add files.labs and algorithms into website to show AP CSA requirements](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/3) |
 | Yasaswi Singamneni | [Create back end support, deployment](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/2) |
 | Anthony Vo | [Web development, web design, HTML and CSS](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/1) |

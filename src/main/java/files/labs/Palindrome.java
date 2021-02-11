@@ -1,6 +1,5 @@
-package labs;
+package files.labs;
 
-import java.lang.*;
 import java.lang.*;
 import java.util.Scanner;
 public class Palindrome{
