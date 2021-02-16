@@ -14,10 +14,10 @@ public class Fibonacci {
     if (n <= 1) {
       return n;
     }
-    for (i = 1; i < n; i++) {
-      int preprevious = previous;
-      int previous = current;
-      int current = preprevious + previous;
+    for (int i = 1; i < n; i++) {
+      preprevious = previous;
+      previous = current;
+      current = preprevious + previous;
     }
     return current;
   }
