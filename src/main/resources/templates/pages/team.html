@@ -1,0 +1,41 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<!-- Head, think of things that are more meta or format oriented -->
+<head th:replace="fragments/headfile :: head">
+    <title>Contributors</title>
+</head>
+
+<body>
+<!-- Header of Page, includes Navigation -->
+<div th:replace="fragments/header :: header"></div>
+
+<!-- Body of Page, the details of this pages -->
+<div class="screen">
+    <h1>Contributors</h1>
+    <div class="row-full">
+        <figure>
+            <img src="https://cdn.discordapp.com/attachments/673358608066543627/811396003109666846/unknown.png" width="200" height="200">
+            <figcaption>Vihan Jayaraman</figcaption>
+        </figure>
+        <figure>
+            <img src="https://cdn.discordapp.com/attachments/673358608066543627/811395827716587541/tiredEyaad.png" width="200" height="200">
+            <figcaption>Eyaad Mir</figcaption>
+        </figure>
+        <figure>
+            <img src="https://cdn.discordapp.com/attachments/673358608066543627/811395718392315914/coolguy.PNG" width="200" height="200">
+            <figcaption>Yasaswi S. (Scrum Master)</figcaption>
+        </figure>
+        <figure>
+            <img src="https://cdn.discordapp.com/attachments/673358608066543627/811395764068417576/chadTony.PNG" width="200" height="200">
+            <figcaption>Anthony Vo (Cool One)</figcaption>
+        </figure>
+    </div>
+</div>
+
+<!-- Footer of Page, includes things like contacts or copywrite -->
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
