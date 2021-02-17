@@ -18,4 +18,8 @@ public class MainController {
     public String team() {
         return "pages/team";
     }
+    @GetMapping("/yasaswiS")
+    public String yasaswiS() {
+        return "pages/yasaswiS";
+    }
 }
