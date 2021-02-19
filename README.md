@@ -3,6 +3,9 @@
 ## Summary
 Tactical Apes website for AP CSA. Made using Thymeleaf, HTML, Java, and JavaScript. Deployed via Heroku. Click around to find hidden easter eggs and cool features!
 
+## Website 
+[Click Here](https://csa-project.herokuapp.com/) to access the website!
+
 ## Contributors
 | GitHub Username | Person |
 | --- | --- |
@@ -15,7 +18,7 @@ Tactical Apes website for AP CSA. Made using Thymeleaf, HTML, Java, and JavaScri
 - [Eyaad and Anthony](https://docs.google.com/document/d/1_TAdjjngp_0zO604YmFBRjesVqBiyebn3PxdbbQfVCM/edit?usp=sharing)
 - [Yasaswi and Vihan](https://docs.google.com/document/d/1pfqB4SIPHMkJ73QtPpQTaguTV1aGAqH_RgjdxjifUO4/edit?usp=sharing)
 
-## Goals
+## Goals and Tickets
 | Person | Goals |
 | --- | --- |
 | Vihan Jayaraman | [Work on implementing old simulations into website](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/4) |
