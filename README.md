@@ -1,7 +1,7 @@
 # Tactical Apes Website
 
 ## Summary
-Tactical Apes website for AP CSA. Made using Thymeleaf, HTML, Java, and JavaScript. Deployed via Heroku. Click around to find hidden easter eggs and cool features! Link can be found <a href="https://csa-project.herokuapp.com/" target="blank_">here.</a>
+Tactical Apes website for AP CSA. Made using Thymeleaf, HTML, Java, and JavaScript. Deployed via Heroku. Click around to find hidden easter eggs and cool features! Link can be found <a href="https://csa-project.herokuapp.com/" target="_blank">here.</a>
 
 ## Key Features
 - [x] Multiple web pages that are navigable
