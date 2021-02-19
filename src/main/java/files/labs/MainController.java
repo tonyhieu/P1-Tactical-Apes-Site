@@ -22,4 +22,8 @@ public class MainController {
     public String yasaswiS() {
         return "pages/yasaswiS";
     }
+    @GetMapping("/labs")
+    public String labs() {
+        return "pages/labs";
+    }
 }

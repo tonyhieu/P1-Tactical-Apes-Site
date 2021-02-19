@@ -1,3 +1,5 @@
+package files.labs;
+
 public class Rot13 {
   public void rot13(String phrase) {
     for (int i = 0; i < phrase.length(); i++) {

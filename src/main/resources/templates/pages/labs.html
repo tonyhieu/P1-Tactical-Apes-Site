@@ -1,0 +1,28 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<!-- Head, think of things that are more meta or format oriented -->
+<head th:replace="fragments/headfile :: head">
+    <title>Contributors</title>
+</head>
+
+<body>
+<!-- Header of Page, includes Navigation -->
+<div th:replace="fragments/header :: header"></div>
+<!-- Body of Page, the details of this pages -->
+<div class="screen" style="margin: 30px;">
+    <h3><strong>Palindrome</strong></h3>
+
+    <h3><strong>Fibonacci</strong></h3>
+
+    <h3><strong>Rot13 cipher</strong></h3>
+
+    <h3><strong>Caesar Cipher</strong></h3>
+</div>
+
+<!-- Footer of Page, includes things like contacts or copywrite -->
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

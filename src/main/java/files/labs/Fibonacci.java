@@ -1,3 +1,5 @@
+package files.labs;
+
 public class Fibonacci {
   //recursive method
   public int frec(int n) {
