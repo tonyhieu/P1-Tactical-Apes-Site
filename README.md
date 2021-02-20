@@ -23,10 +23,10 @@ Tactical Apes website for AP CSA. Made using Thymeleaf, HTML, Java, and JavaScri
 - [Yasaswi and Vihan](https://docs.google.com/document/d/1pfqB4SIPHMkJ73QtPpQTaguTV1aGAqH_RgjdxjifUO4/edit?usp=sharing)
 
 ## Goals and Tickets
-| Person | Goals |
-| --- | --- |
-| Vihan Jayaraman | [Work on implementing old simulations into website](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/4) |
-| Eyaad Mir | [Add files.labs and algorithms into website to show AP CSA requirements](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/3) |
-| Yasaswi Singamneni | [Create back end support, deployment](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/2) |
-| Anthony Vo | [Web development, web design, HTML and CSS](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/1) |
+| Person | Overall Goals | Progress | Ticket |
+| --- | --- | --- | --- |
+| Vihan Jayaraman | Work on implementing old simulations into website) | Did research on how to incorporate swing into website | [Ticket](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/4)
+| Eyaad Mir | Add files labs and algorithms into website to show AP CSA requirements | Worked on Palindrome, Fibonacci, and Cipher labs. Also worked on the html for labs.html | [Ticket](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/3) | 
+| Yasaswi Singamneni | Create back end support, deployment | Created the EC2 instance for our website | [Ticket](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/2) |
+| Anthony Vo | Web development, web design, HTML and CSS | Created the style and html for our website | [Ticket](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/1) |
 
