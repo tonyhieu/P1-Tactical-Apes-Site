@@ -51,4 +51,12 @@ public class Palindrome{
          }
          return true;
      }
+     public boolean isPalindromeReverse(String input) {
+          StringBuffer reversed = new StringBuffer(input);
+          String reverseString = reversed.reverse().toString();
+          if (input.equalsIgnoreCase(reverseString)) {
+               return true;
+          }
+          return false;
+     }
 } 
