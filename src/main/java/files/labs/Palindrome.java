@@ -30,7 +30,7 @@ public class Palindrome{
              stringArray[i] = input.substring(i,i+1);
          }
          for (int j = 0; j < stringArray.length / 2; j++) {
-            if (!(stringArray[j].equals(stringArray[stringArray.length-(j+1)]))) {
+            if (!(stringArray[j].equalsIgnoreCase(stringArray[stringArray.length-(j+1)]))) {
                 return false;
             }
          }
@@ -42,7 +42,7 @@ public class Palindrome{
              return true;
          }
          
-         if (!(input.charAt(min) == (input.charAt(max)))) {
+         if (!(input.charAt(min).equalsIgnoreCase((input.charAt(max))))) {
              return false;
          }
          
