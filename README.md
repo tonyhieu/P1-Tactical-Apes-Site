@@ -22,7 +22,7 @@ The main goal of our website is to have a unique design that captures the attent
 
 ## Journals
 - [Eyaad and Anthony](https://docs.google.com/document/d/1_TAdjjngp_0zO604YmFBRjesVqBiyebn3PxdbbQfVCM/edit?usp=sharing)
-- [Yasaswi and Vihan](https://docs.google.com/document/d/1pfqB4SIPHMkJ73QtPpQTaguTV1aGAqH_RgjdxjifUO4/edit?usp=sharing)
+- [Yasaswi and Vihan](https://docs.google.com/document/d/1YGXgR4pPUf52Tl2DBQ33JKAiH2Ob1iPUPTL69cVNPw8/edit?usp=sharing)
 
 ## Contributors
 | GitHub Username | Person |
