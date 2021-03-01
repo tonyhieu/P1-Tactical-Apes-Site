@@ -26,4 +26,14 @@ public class MainController {
     public String labs() {
         return "pages/labs";
     }
+
+    //pages not created yet - LABS
+    @GetMapping("/fibonacci")
+    public String fibonacci() { return "pages/labs/fibonacci";}
+    @GetMapping("/rot")
+    public String rot() { return "pages/labs/rot";}
+    @GetMapping("/caesar")
+    public String caesar() { return "pages/labs/caesar";}
+    @GetMapping("/palindrome")
+    public String palindrome() { return "pages/labs/palindrome";}
 }

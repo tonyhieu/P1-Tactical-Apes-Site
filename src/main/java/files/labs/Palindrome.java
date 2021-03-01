@@ -42,9 +42,9 @@ public class Palindrome{
              return true;
          }
          
-         if (!(input.charAt(min).equalsIgnoreCase((input.charAt(max))))) {
-             return false;
-         }
+         //if (!(input.charAt(min).equalsIgnoreCase((input.charAt(max))))) {
+           //  return false;
+         //}/
          
          if (min < max - 1) {
              return isPalindromeRecursive(input, min + 1, max - 1);
