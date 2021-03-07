@@ -64,10 +64,10 @@ public class Palindrome{
          String changedWord = phrase.replaceAll("\\s", "");
          boolean ispali = isPalindrome(changedWord);
          if (ispali) {
-             return "This is a Palindrome through iterative method";
+             return "The word " + phrase + " is a Palindrome (by the iterative method test)";
          }
          else {
-             return "This is not a Palindrome through iterative method";
+             return "The word " + phrase + " is not a Palindrome (by the iterative method test)";
          }
      }
 } 
