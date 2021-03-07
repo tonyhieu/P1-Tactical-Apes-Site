@@ -11,20 +11,17 @@ public class Caesar {
         char c = phrase.charAt(i);
         if (c>='a' && c<=('z'-shift)) {
           c+=shift;
-          decoded+=c;
         }
         else if (c>='A' && c<=('Z'-shift)) {
           c+=shift;
-          decoded+=c;
         }
         else if (c>=('Z'-(shift-1)) && c<='Z') {
           c-=shift;
-          decoded+=c;
         }
         else if (c>=('z'-(shift-1)) && c<='z') {
           c-=shift;
-          decoded+=c;
         }
+        decoded+=c;
       }
     decoded+="\" with a shift of ";
     decoded+=" ";
