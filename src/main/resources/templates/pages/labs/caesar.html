@@ -12,7 +12,18 @@
 <div th:replace="fragments/header :: header"></div>
 
 <!-- Body defaults to ellipses, details are added by ThymeLeaf layout fragment -->
-<div>...</div>
+<div class="screen" style="margin: 30px;">
+    <h1>Caesar Cipher</h1>
+    <form id="caesarForm" action="/cip" method="GET">
+        <label for="phrase">Introducing Rot13 but better! Add an n value!</label>
+        <input name="phrase" id="phrase" >
+        <input name="shift" id="shift" type="number" min="1" max="25" >
+        <button>Go!</button>
+    </form>
+    <p th:each="line: ${cipher}" th:text="${line}"></p>
+
+</div>
+
 
 <!-- Footer of Page, includes things like contacts or copywrite -->
 <div th:replace="fragments/footer :: footer"></div>

@@ -3,10 +3,7 @@ package files.labs;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.net.URI;
@@ -57,6 +54,14 @@ public class MainController {
         Rot13 rottt = new Rot13();
         model.addAttribute("rott", rottt.rot13(phrase));
         return "pages/labs/rot";
+    }
+
+    @GetMapping("/cip")
+    public String ciph(@RequestParam(name="phrase", required=false, defaultValue = "Eyaad") String phrase, @RequestParam(name="shift", required=false, defaultValue = "13") int shift, Model model) {
+
+        Caesar cipherr = new Caesar();
+        model.addAttribute("cipher", cipherr.caesar(shift, phrase));
+        return "pages/labs/caesar";
     }
 
 }
