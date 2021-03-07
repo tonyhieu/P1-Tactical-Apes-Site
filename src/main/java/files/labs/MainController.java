@@ -36,4 +36,11 @@ public class MainController {
     public String caesar() { return "pages/labs/caesar";}
     @GetMapping("/palindrome")
     public String palindrome() { return "pages/labs/palindrome";}
+
+    @GetMapping("/pali")
+    public String pali(@RequestParam(name="phrase", required=false,  defaultValue="racecar") String phrase, Model model) {
+        Palindrome pali = new Palindrome();
+        model.addAttribute("log1", pali.getLog1(phrase));
+        return "pages/labs/palindrome";
+    }
 }

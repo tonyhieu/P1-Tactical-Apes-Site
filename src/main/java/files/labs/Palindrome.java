@@ -4,6 +4,7 @@ import java.lang.*;
 import java.util.Scanner;
 public class Palindrome{
 
+     private String log;
      public static void main(String []args) {
          System.out.println("Enter word");
          Scanner myObj = new Scanner(System.in);
@@ -58,5 +59,15 @@ public class Palindrome{
                return true;
           }
           return false;
+     }
+     public String getLog1(String phrase) {
+         String changedWord = phrase.replaceAll("\\s", "");
+         boolean ispali = isPalindrome(changedWord);
+         if (ispali) {
+             return "This is a Palindrome through iterative method";
+         }
+         else {
+             return "This is not a Palindrome through iterative method";
+         }
      }
 } 

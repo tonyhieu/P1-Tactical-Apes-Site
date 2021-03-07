@@ -6,14 +6,21 @@
 <head th:replace="fragments/headfile :: head">
     <title>Palindrome</title>
 </head>
-
 <body>
 <!-- Header of Page, includes Navigation -->
 <div th:replace="fragments/header :: header"></div>
 
 <!-- Body defaults to ellipses, details are added by ThymeLeaf layout fragment -->
-<div>...</div>
+<div class="screen" style="margin: 30px;">
+    <h1>Palindrome</h1>
+    <form id="paliForm" action="/pali" method="GET">
+        <label for="phrase">Type a phrase to be tested as a palindrome(default value racecar)</label>
+        <input name="phrase" id="phrase" th:default="racecar" >
+        <button>Go!</button>
+    </form>
+    <p th:each="line: ${log1}" th:text="${line}"></p>
 
+</div>
 <!-- Footer of Page, includes things like contacts or copywrite -->
 <div th:replace="fragments/footer :: footer"></div>
 </body>
