@@ -12,7 +12,16 @@
 <div th:replace="fragments/header :: header"></div>
 
 <!-- Body defaults to ellipses, details are added by ThymeLeaf layout fragment -->
-<div>...</div>
+<div class="screen" style="margin: 30px;">
+    <h1>Fibonacci</h1>
+    <form id="fibForm" action="/fib" method="GET" >
+        <label for="fibseq">Type the nth number in the fibonacci sequence</label>
+        <input name="fibseq" id="fibseq" type="number" min="2" max="93" >
+        <button>Go!</button>
+    </form>
+    <p th:text="${fibseq}"></p>
+
+</div>
 
 <!-- Footer of Page, includes things like contacts or copywrite -->
 <div th:replace="fragments/footer :: footer"></div>

@@ -43,4 +43,13 @@ public class MainController {
         model.addAttribute("log1", pali.getLog1(phrase));
         return "pages/labs/palindrome";
     }
+
+    @GetMapping("/fib")
+    public String fib(@RequestParam(name="fibseq", required=false,  defaultValue="2") String fibseq, Model model) {
+        Fibonacci fibb = new Fibonacci();
+        int sequence = Integer.parseInt(fibseq);
+        model.addAttribute("fibseq", fibb.returnFib(sequence));
+        return "pages/labs/fibonacci";
+    }
+
 }

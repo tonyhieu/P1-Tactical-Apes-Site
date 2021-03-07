@@ -1,4 +1,5 @@
 package files.labs;
+import java.util.Arrays;
 
 public class Fibonacci {
   //recursive method
@@ -9,18 +10,25 @@ public class Fibonacci {
     return frec(n-1) + frec(n-2);
   }
   //iterative method
-  public int fi(int n) {
-    int preprevious;
-    int previous = 0;
-    int current = 1;
-    if (n <= 1) {
-      return n;
-    }
-    for (int i = 1; i < n; i++) {
+  public long[] fi(int n) {
+    long[] fibo = new long[n];
+    long preprevious;
+    long previous = 0;
+    long current = 1;
+    fibo[0] = 0;
+    fibo[1] = 1;
+    for (int i = 2; i < n; i++) {
       preprevious = previous;
       previous = current;
       current = preprevious + previous;
+      fibo[i] = current;
     }
-    return current;
+    return fibo;
+  }
+  public String returnFib(int num) {
+    long[] arr = new long[num];
+    arr = fi(num);
+    String line = "The fibonacci sequence is " + Arrays.toString(arr);
+    return line;
   }
 }
