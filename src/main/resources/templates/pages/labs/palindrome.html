@@ -14,8 +14,8 @@
 <div class="screen" style="margin: 30px;">
     <h1>Palindrome</h1>
     <form id="paliForm" action="/pali" method="GET">
-        <label for="phrase">Type a phrase to be tested as a palindrome(default value racecar)</label>
-        <input name="phrase" id="phrase" th:default="racecar" >
+        <label for="phrase">Type a phrase to be tested as a palindrome</label>
+        <input name="phrase" id="phrase" value="racecar" >
         <button>Go!</button>
     </form>
     <p th:each="line: ${log1}" th:text="${line}"></p>

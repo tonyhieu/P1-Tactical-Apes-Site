@@ -52,4 +52,11 @@ public class MainController {
         return "pages/labs/fibonacci";
     }
 
+    @GetMapping("/rot13")
+    public String rot(@RequestParam(name="phrase", required=false, defaultValue = "Gur dhvpx oebja sbk whzcf bire 13 ynml qbtf.") String phrase, Model model) {
+        Rot13 rottt = new Rot13();
+        model.addAttribute("rott", rottt.rot13(phrase));
+        return "pages/labs/rot";
+    }
+
 }

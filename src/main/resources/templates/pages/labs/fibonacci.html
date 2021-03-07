@@ -16,7 +16,7 @@
     <h1>Fibonacci</h1>
     <form id="fibForm" action="/fib" method="GET" >
         <label for="fibseq">Type the nth number in the fibonacci sequence</label>
-        <input name="fibseq" id="fibseq" type="number" min="2" max="93" >
+        <input name="fibseq" id="fibseq" type="number" value="2" min="2" max="93" >
         <button>Go!</button>
     </form>
     <p th:text="${fibseq}"></p>

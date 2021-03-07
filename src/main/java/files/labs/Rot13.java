@@ -1,10 +1,11 @@
 package files.labs;
 
 public class Rot13 {
-  public void rot13(String phrase) {
+  public String rot13(String phrase) {
+    String decoded = "Output: ";
     for (int i = 0; i < phrase.length(); i++) {
       if (containsSpecialCharacter(phrase.substring(i,i+1))) {
-        System.out.print(phrase.charAt(i));
+        decoded+=phrase.substring(i,i+1);
         continue;
       }
       char c = phrase.charAt(i);
@@ -20,8 +21,9 @@ public class Rot13 {
       else if (c>='n' && c<='z') {
         c-=13;
       }
-      System.out.print(c);
+      decoded+=c;
     }
+    return decoded;
   }
   public boolean containsSpecialCharacter(String s) {
     return (s == null) ? false : s.matches("[^A-Za-z0-9 ]");
