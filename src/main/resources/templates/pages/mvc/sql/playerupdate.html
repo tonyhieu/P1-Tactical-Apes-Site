@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<!-- Head, think of things that are more meta or format oriented -->
+<head th:replace="fragments/headfile :: head">
+    <title>SQL List</title>
+</head>
+
+<div th:replace="fragments/header :: header"></div>
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+
+<div style="margin: 2%;">
+    <h3>Welcome, Update The Player's Details</h3>
+    <!-- ThymeLeaf allows person abject of the Class Person to be acted upon by the form
+     This is known as a “bean-backed form” or "form-backing bean".
+        th:object - the backend form object (bean object)
+     There are two fields in the Person bean,
+        th:field="*{name}"
+        th:field="*{age}".
+     Each field has supporting line for to show errors in validation
+        th:errors - form input errors added when validation errors occur
+     Reference
+        https://www.baeldung.com/spring-boot-crud-thymeleaf
+     .-->
+    <form action="#" th:action="@{/sql/playerupdate}" th:object="${player}" method="POST">
+        <table>
+            <tr>
+                <td>ID:</td>
+                <td th:text="${player.id}">Person ID</td>
+                <!-- hidden field is CRITICAL else id will be null on action -->
+                <td><input type="hidden" th:field="*{id}" readonly="readonly" /></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" th:field="*{name}" /></td>
+                <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+            </tr>
+            <tr>
+                <td>Champion:</td>
+                <td><input type="text" th:field="*{champion}" /></td>
+                <td th:if="${#fields.hasErrors('champion')}" th:errors="*{champion}">Champion Error</td>
+            </tr>
+            <tr>
+                <td>Mastery:</td>
+                <td><input type="text" th:field="*{mastery}" /></td>
+                <td th:if="${#fields.hasErrors('mastery')}" th:errors="*{mastery}">Mastery Error</td>
+            </tr>
+            <tr>
+                <td><button type="submit">Save</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+<div th:replace="fragments/footer :: footer"></div>
+
+</html>

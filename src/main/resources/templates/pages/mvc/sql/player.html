@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<!-- Head, think of things that are more meta or format oriented -->
+<head th:replace="fragments/headfile :: head">
+    <title>SQL List</title>
+</head>
+
+<div th:replace="fragments/header :: header"></div>
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+
+<div style="margin: 2%;">
+    <div align="center">
+        <h1>SQL Player List</h1>
+        <a href="/sql/playercreate/">Create Player</a>
+        <br/><br/>
+
+        <table border="1" cellpadding="10">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Player</th>
+                <th>Champion</th>
+                <th>Mastery</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="player : ${list}">
+                <td th:text="${player.id}">Player ID</td>
+                <td th:text="${player.name}">Name</td>
+                <td th:text="${player.champion}">Champion</td>
+                <td th:text="${player.mastery}">Mastery</td>
+                <td>
+                    <a th:href="@{/sql/playerupdate/{id}(id = ${player.id})}">Update</a>
+                    <a th:href="@{/sql/playerdelete/{id}(id = ${player.id})}">Delete</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+<div th:replace="fragments/footer :: footer"></div>
+
+</html>
