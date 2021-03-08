@@ -26,7 +26,7 @@ public class PlayerSqlMvcController implements WebMvcConfigurer {
     public String player(Model model) {
         List<Player> list = repository.listAll();
         model.addAttribute("list", list);
-        return "mvc/sql/player";
+        return "pages/mvc/sql/player";
     }
 
     /*  The HTML template Forms and PlayerForm attributes are bound
@@ -35,7 +35,7 @@ public class PlayerSqlMvcController implements WebMvcConfigurer {
     */
     @GetMapping("/sql/playercreate")
     public String playerAdd(Player player) {
-        return "mvc/sql/playercreate";
+        return "pages/mvc/sql/playercreate";
     }
 
     /* Gathers the attributes filled out in the form, tests for and retrieves validation error
@@ -46,7 +46,7 @@ public class PlayerSqlMvcController implements WebMvcConfigurer {
     public String playerSave(@Valid Player player, BindingResult bindingResult) {
         // Validation of Decorated PlayerForm attributes
         if (bindingResult.hasErrors()) {
-            return "mvc/sql/playercreate";
+            return "pages/mvc/sql/playercreate";
         }
         repository.save(player);
         // Redirect to next step
@@ -56,14 +56,14 @@ public class PlayerSqlMvcController implements WebMvcConfigurer {
     @GetMapping("/sql/playerupdate/{id}")
     public String playerUpdate(@PathVariable("id") int id, Model model) {
         model.addAttribute("player", repository.get(id));
-        return "mvc/sql/playerupdate";
+        return "pages/mvc/sql/playerupdate";
     }
 
     @PostMapping("/sql/playerupdate")
     public String playerUpdateSave(@Valid Player player, BindingResult bindingResult) {
         // Validation of Decorated PlayerForm attributes
         if (bindingResult.hasErrors()) {
-            return "mvc/sql/playerupdate";
+            return "pages/mvc/sql/playerupdate";
         }
         repository.save(player);
         // Redirect to next step
