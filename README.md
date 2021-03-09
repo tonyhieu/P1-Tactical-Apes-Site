@@ -15,10 +15,16 @@ You should see the following page:
 <img src="https://media.discordapp.net/attachments/787235941373837332/818711475912048640/unknown.png?width=1366&height=670" width="1200" height="500">
 
 
-Go to the "team" page to see the contributers to the website.
+Go to the "team" page by clicking "Team" in the header, to see the contributers to the website.
+You'll be redirected to this webpage:
+<img src="https://media.discordapp.net/attachments/787235941373837332/818711564164530176/unknown.png?width=1391&height=669" width="1200" height="500">
 
-Go to the "labs" page to see our different labs.
- - You can also create People in a database! Specify their name, champion, and mastery(number from 1 to 7)
+Go to the "labs" page by clicking on "Labs" in the header, to see our different labs.
+You'll be redirected to this webpage:
+<img src="https://media.discordapp.net/attachments/787235941373837332/818711639905009664/unknown.png?width=1376&height=669" width="1200" height="500">
+Clicking on a link to a lab will give you instructions on what to put in each field.
+
+ - You can also create People in a database! Specify their name, champion, and mastery (number from 1 to 7)
 
 ## Goals and Tickets
 | Person | Overall Goals | Progress | Ticket |
