@@ -12,7 +12,7 @@
 <div style="margin: 2%;">
     <div align="center">
         <h1>SQL Player List</h1>
-        <a href="/sql/playercreate/">Create Player</a>
+        <a href="/sql/playercreate/" class="address">Create Player</a>
         <br/><br/>
 
         <table border="1" cellpadding="10">
@@ -32,8 +32,8 @@
                 <td th:text="${player.champion}">Champion</td>
                 <td th:text="${player.mastery}">Mastery</td>
                 <td>
-                    <a th:href="@{/sql/playerupdate/{id}(id = ${player.id})}">Update</a>
-                    <a th:href="@{/sql/playerdelete/{id}(id = ${player.id})}">Delete</a>
+                    <a th:href="@{/sql/playerupdate/{id}(id = ${player.id})}" class="address">Update</a>
+                    <a th:href="@{/sql/playerdelete/{id}(id = ${player.id})}" class="address">Delete</a>
                 </td>
             </tr>
             </tbody>

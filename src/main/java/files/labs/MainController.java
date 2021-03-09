@@ -63,5 +63,8 @@ public class MainController {
         model.addAttribute("cipher", cipherr.caesar(shift, phrase));
         return "pages/labs/caesar";
     }
-
+    @GetMapping("/whole")
+    public String whole() {
+        return "pages/whole";
+    }
 }
