@@ -11,6 +11,10 @@ Access our website at https://csa-project.herokuapp.com!
 
 Go to the "home" page to see our journals. 
 
+You should see the following page:
+<img src="https://media.discordapp.net/attachments/787235941373837332/818711475912048640/unknown.png?width=1366&height=670" width="1200" height="500">
+
+
 Go to the "team" page to see the contributers to the website.
 
 Go to the "labs" page to see our different labs.
