@@ -7,6 +7,14 @@ The main goal of our website is to have a unique design that captures the attent
 
 ## Navigation
 
+Access our website at https://csa-project.herokuapp.com! 
+
+Go to the "home" page to see our journals. 
+
+Go to the "team" page to see the contributers to the website.
+
+Go to the "labs" page to see our different labs.
+ - You can also create People in a database! Specify their name, champion, and mastery(number from 1 to 7)
 
 ## Goals and Tickets
 | Person | Overall Goals | Progress | Ticket |
@@ -20,8 +28,9 @@ The main goal of our website is to have a unique design that captures the attent
 - [x] Multiple web pages that are navigable
 - [x] Unique CSS Styling
 - [x] Consistent layout
-- [ ] Interactable Labs
+- [x] Interactable Labs
 - [x] Easter Eggs
+- [x] SQL Databases 
 
 ## Journals
 - [Eyaad and Anthony](https://docs.google.com/document/d/1_TAdjjngp_0zO604YmFBRjesVqBiyebn3PxdbbQfVCM/edit?usp=sharing)
