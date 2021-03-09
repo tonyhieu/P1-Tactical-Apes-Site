@@ -3,7 +3,10 @@
 ## Summary
 Tactical Apes website for AP CSA. Made using Thymeleaf, HTML, Java, and JavaScript. Deployed via Heroku. Click around to find hidden easter eggs and cool features! Link can be found <a href="https://csa-project.herokuapp.com/" target="_blank">here.</a>
 
-The main goal of our website is to have a unique design that captures the attention of people looking at it. We also want our website to incorporate labs and FRQs that demonstrate the Java we have learned this year. 
+The main goal of our website is to have a unique design that captures the attention of people looking at it. We also want our website to incorporate labs that demonstrate the Java we have learned this year. 
+
+## Navigation
+
 
 ## Goals and Tickets
 | Person | Overall Goals | Progress | Ticket |
