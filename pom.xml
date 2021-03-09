@@ -15,7 +15,7 @@
     <description>AP CSA Project</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <!-- Thymeleaf 3 -->
         <org.thymeleaf-version>3.0.12.RELEASE</org.thymeleaf-version>
         <org.thymeleaf.extras.springsecurity4-version>3.0.2.RELEASE</org.thymeleaf.extras.springsecurity4-version>
@@ -113,11 +113,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
             <version>5.3.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.tacticalapes</groupId>
-            <artifactId>p1-tactical-apes-website</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
