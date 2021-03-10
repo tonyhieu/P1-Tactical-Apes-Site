@@ -8,18 +8,14 @@ public class Caesar {
           decoded+=phrase.substring(i,i+1);
           continue;
         }
-        char c = phrase.charAt(i);
-        if (c>='a' && c<=('z'-shift)) {
-          c+=shift;
+        char c = 'a';
+        if (Character.isUpperCase(phrase.charAt(i))) {
+          c = (char)(((int)phrase.charAt(i) +
+                  shift - 65) % 26 + 65);
         }
-        else if (c>='A' && c<=('Z'-shift)) {
-          c+=shift;
-        }
-        else if (c>=('Z'-(shift-1)) && c<='Z') {
-          c-=shift;
-        }
-        else if (c>=('z'-(shift-1)) && c<='z') {
-          c-=shift;
+        else if (Character.isLowerCase(phrase.charAt(i))){
+          c =(char)(((int)phrase.charAt(i) +
+                  shift - 97) % 26 + 97);
         }
         decoded+=c;
       }
@@ -29,6 +25,6 @@ public class Caesar {
     return decoded;
   }
   public boolean containsSpecialCharacter(String s) {
-      return (s == null) ? false : s.matches("[^A-Za-z0-9 ]");
+      return (s == null) ? false : s.matches("[^A-Za-z]");
   }
 }

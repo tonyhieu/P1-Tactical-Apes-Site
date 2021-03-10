@@ -67,11 +67,15 @@ public class MainController {
     }
 
     @GetMapping("/com")
-    public String com(@RequestParam(name="common", required = false) int common, @RequestParam(name="factor", required = false) int factor, Model model) {
+    public String com(@RequestParam(name="common", required = false, defaultValue = "1") int common, @RequestParam(name="factor", required = false, defaultValue = "1") int factor, Model model) {
         Recursion recursion = new Recursion();
         model.addAttribute("log1", recursion.returnGcf(common, factor));
         model.addAttribute("log2", recursion.reduceFraction(common, factor));
         return "pages/labs/commonfactor";
     }
 
+    @GetMapping("/whole")
+    public String whole() {
+        return "pages/whole";
+    }
 }
