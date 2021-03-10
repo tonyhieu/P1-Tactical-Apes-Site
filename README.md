@@ -21,6 +21,11 @@ The main goal of our website is to have a unique design that captures the attent
 - [x] Easter Eggs
 - [x] SQL Databases 
 
+## Table of Contents
+- [Navigation](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/README.md#navigation)
+- [Accomplishments and Contributors](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/README.md#accomplishments-and-contributors)
+- [Journals](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/README.md#journals)
+
 ## Navigation
 
 Access our website at https://csa-project.herokuapp.com! 
