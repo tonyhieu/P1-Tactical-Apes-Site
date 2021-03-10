@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<!-- Head, think of things that are more meta or format oriented -->
+<head th:replace="fragments/headfile :: head">
+    <title>Fibonacci</title>
+</head>
+
+<body>
+<!-- Header of Page, includes Navigation -->
+<div th:replace="fragments/header :: header"></div>
+
+<!-- Body defaults to ellipses, details are added by ThymeLeaf layout fragment -->
+<div class="lab">
+    <h1>Common Factor</h1>
+    <form id="comForm" action="/com" method="GET" >
+        <label for="common">Type two numbers, and this will find the greatest common factor and reduce it's fraction!</label>
+        <label for="common">Type the first number!</label>
+        <input name="common" id="common" type="number" >
+        <label for="factor">Type the second number!</label>
+        <input name="factor" id="factor" type="number" >
+        <button>Go!</button>
+    </form>
+    <p th:text="${log1}"></p>
+    <p th:text="${log2}"></p>
+
+</div>
+
+<!-- Footer of Page, includes things like contacts or copywrite -->
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

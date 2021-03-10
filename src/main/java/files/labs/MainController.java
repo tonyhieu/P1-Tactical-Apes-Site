@@ -33,6 +33,8 @@ public class MainController {
     public String caesar() { return "pages/labs/caesar";}
     @GetMapping("/palindrome")
     public String palindrome() { return "pages/labs/palindrome";}
+    @GetMapping("/commonfactor")
+    public String commonfactor() { return "pages/labs/commonfactor";}
 
     @GetMapping("/pali")
     public String pali(@RequestParam(name="phrase", required=false,  defaultValue="racecar") String phrase, Model model) {
@@ -62,6 +64,14 @@ public class MainController {
         Caesar cipherr = new Caesar();
         model.addAttribute("cipher", cipherr.caesar(shift, phrase));
         return "pages/labs/caesar";
+    }
+
+    @GetMapping("/com")
+    public String com(@RequestParam(name="common", required = false) int common, @RequestParam(name="factor", required = false) int factor, Model model) {
+        Recursion recursion = new Recursion();
+        model.addAttribute("log1", recursion.returnGcf(common, factor));
+        model.addAttribute("log2", recursion.reduceFraction(common, factor));
+        return "pages/labs/commonfactor";
     }
 
 }
