@@ -5,6 +5,22 @@ Tactical Apes website for AP CSA. Made using Thymeleaf, HTML, Java, and JavaScri
 
 The main goal of our website is to have a unique design that captures the attention of people looking at it. We also want our website to incorporate labs that demonstrate the Java we have learned this year. 
 
+## Contributors
+| GitHub Username | Person |
+| --- | --- |
+| [@VihanJ](https://github.com/VihanJ) | Vihan Jayaraman |
+| [@EyaadM](https://github.com/eyaadm) | Eyaad Mir |
+| [@YasaswiS](https://github.com/YasaswiS) | Yasaswi Singamneni |
+| [@tonyhieu](https://github.com/tonyhieu) | Anthony Vo |
+
+## Key Features
+- [x] Multiple web pages that are navigable
+- [x] Unique CSS Styling
+- [x] Consistent layout
+- [x] Interactable Labs
+- [x] Easter Eggs
+- [x] SQL Databases 
+
 ## Navigation
 
 Access our website at https://csa-project.herokuapp.com! 
@@ -24,7 +40,7 @@ You'll be redirected to this webpage:
 <img src="https://media.discordapp.net/attachments/787235941373837332/818711639905009664/unknown.png?width=1376&height=669" width="1200" height="500">
 Clicking on a link to a lab will give you instructions on what to put in each field.
 
- - You can also create People in a database! Specify their name, champion, and mastery (number from 1 to 7)
+ - You can also create League of Legends players in a database! Specify their name, champion, and mastery (number from 1 to 7)
 
 ## Goals and Tickets
 | Person | Overall Goals | Progress | Ticket |
@@ -34,24 +50,14 @@ Clicking on a link to a lab will give you instructions on what to put in each fi
 | Yasaswi Singamneni | Create back end support, deployment | Created the EC2 instance for our website, getting it deployed with [heroku](https://www.heroku.com/), changed the styling of the [header](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/fragments/header.html) and [footer](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/fragments/footer.html), edited the readme to add navigation, and helped on the integration with the [labs page.](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/pages/labs.html) | [Ticket](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/2) |
 | Anthony Vo | Web development, web design, HTML and CSS | Created the [styling](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/fragments/headfile.html), [header](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/fragments/header.html), [footer](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/fragments/footer.html), [home](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/index.html), and [team](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/master/src/main/resources/templates/pages/team.html) page for our website. Also made this [easter egg](https://github.com/tonyhieu/P1-Tactical-Apes-Site/blob/52f6adaa6ec3d6053482fe16d974bb30245e50ef/src/main/resources/templates/pages/team.html#L26). There are more. Try to find them! | [Ticket](https://github.com/tonyhieu/P1-Tactical-Apes-Site/projects/1) |
 
-## Key Features
-- [x] Multiple web pages that are navigable
-- [x] Unique CSS Styling
-- [x] Consistent layout
-- [x] Interactable Labs
-- [x] Easter Eggs
-- [x] SQL Databases 
+## Accomplishments and Contributors
+| Technicals | Code | Ticket | Contributor |
+| --- | --- | --- | --- |
 
 ## Journals
 - [Eyaad and Anthony](https://docs.google.com/document/d/1_TAdjjngp_0zO604YmFBRjesVqBiyebn3PxdbbQfVCM/edit?usp=sharing)
 - [Yasaswi and Vihan](https://docs.google.com/document/d/1YGXgR4pPUf52Tl2DBQ33JKAiH2Ob1iPUPTL69cVNPw8/edit?usp=sharing)
 
-## Contributors
-| GitHub Username | Person |
-| --- | --- |
-| [@VihanJ](https://github.com/VihanJ) | Vihan Jayaraman |
-| [@EyaadM](https://github.com/eyaadm) | Eyaad Mir |
-| [@YasaswiS](https://github.com/YasaswiS) | Yasaswi Singamneni |
-| [@tonyhieu](https://github.com/tonyhieu) | Anthony Vo |
- 
+
+
 
